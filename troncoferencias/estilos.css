@@ -15,7 +15,7 @@ show img:hover{
     cursor: crosshair;
     opacity: 1;
     filter: contrast(100%);
-    width: 90%;
+    width: 70%;
     object-fit: contain;
 }
 

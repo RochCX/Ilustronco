@@ -16,3 +16,20 @@ function reveal() {
   
   window.addEventListener("scroll", reveal);
   
+// var expRegNombre= /^([a-z ñáéíóú]{2,60})$/i;
+// var expRegEmail =  /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,4})+$/;
+
+function checkMail(idmail){
+var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,4})+$/;
+if(idmail.value.match(mailformat)){
+
+  document.form1.text1.focus();
+  return true;
+}
+  else{
+
+  alert("Invalid email address.");
+  document.form1.text1.focus();
+  return false;
+}
+}
