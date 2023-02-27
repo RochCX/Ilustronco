@@ -17,7 +17,7 @@ body{
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
     border-radius: 10px;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
 }
 .blach{
     height: 40vh;
