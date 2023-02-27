@@ -1,0 +1,35 @@
+/* ojo con los bodies */
+body{
+    font-family: Helvetica;
+    font-size: small;
+}
+.artContainer{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.cardContainer{
+    height: 60vh;
+    width: auto;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.blach{
+    height: 40vh;
+    display: block;
+	width: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+.blach:hover{
+    transform: scale(1.07);
+}
+.cardtext{
+    padding-left: 10px;
+    padding-right: 10px;
+}
