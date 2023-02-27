@@ -1,4 +1,4 @@
-*{
+/* *{
     border: 0;
     margin: 0;
     padding:0;
@@ -80,4 +80,86 @@ h1{
 }
 :focus{
     box-shadow: .1em .1em .5em rgba(255,102,0,.5);
+} */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 30px 50px 0px 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			    0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 10px;
+    position: relative;
+	overflow: hidden;
+    max-width: 100%;
+    height: 72vh;
+    background-color: rgb(245, 245, 245);
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+    border-radius: 10px;
+}
+.caja__signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+    margin: 0%;
+    background: #FF416C;
+    background: linear-gradient(to right, #2bceff, #41ff80);
+}
+.caja__signup p{
+    margin: 20px;
+}
+.seccionboton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn_contact{
+    border-radius: 20px;
+	border: 1px solid #2bceff;
+	background-color: #2bceff;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+    margin: 8px;
+	padding: 12px 45px;
+    margin-bottom: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.SignUp{
+    border-radius: 20px;
+	border: 1px solid #FFFFFF;
+	background-color:rgba(0,0,0,0);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }

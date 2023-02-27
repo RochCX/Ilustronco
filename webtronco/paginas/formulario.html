@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="/troncoferencias/estilo_form.css">
     <link rel="shortcut icon" href="/imgs/ilustronco.png" type="image/x-icon">
-    <link rel="stylesheet" href="/troncoferencias/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!--añadir toasts para confirmar añadidos de carro-->
@@ -32,7 +31,7 @@
                   <a class="nav-link active" aria-current="page" href="./homepage.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./formulario.html">Pide tu dibujo</a>
+                  <a class="nav-link" href="./formulario.html">Contacto</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./comisiones.html">Comisiones</a>
@@ -59,37 +58,41 @@
           </div>
         </div>
       </nav>
+  <div class="form_container">
     <form name="contact-frm" action="" method="post" id="contact-frm">
-        <fieldset>
-            <h1>Contacto</h1>
+        <fieldset class="field_contact">
             <div id="contenedor">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre_txt" id="nombre" class="cambio" required>
-                <br><br>
-                <label for="edad">Edad</label>
-                <input type="text" name="edad_txt" id="edad" class="cambio" required>
-                <br><br>
-                <label for="correo">Correo</label>
-                <input type="email" name="correo_txt" id="email" class="cambio">
-                <br><br>
-                <label for="sexo">Sexo:</label>
-                <label>Femenino</label>
-                <input type="radio" name="sexo_rdo" id="F" value="F">
-                <label >Masculino</label>
-                <input type="radio" name="sexo_rdo" id="M" value="M">
-                <br><br>
-                <label for="">Asunto:</label>
-                <input type="text" name="asunto_txt" id="asunto" class="cambio">
-                <br><br>
-                <label for="">Comentarios:</label>
+              <h1 style="font-weight: 800;">Contacto</h1>
+                <br>
+                <input placeholder="Nombre" type="text" name="nombre_txt" id="nombre" class="cambio" required>
+                <br>
+                
+                <input placeholder="Edad" type="text" name="edad_txt" id="edad" class="cambio" required>
+                <br>
+                
+                <input placeholder="Correo" type="email" name="correo_txt" id="email" class="cambio">
+                <br>
+                
+                <input placeholder="Asunto" type="text" name="asunto_txt" id="asunto" class="cambio">
+                <br>
+                
                 <br>
                 <textarea name="comentarios" id="comentarios" cols="50" rows="5"></textarea>
-                <br><br>
-                <input type="button" value="Enviar" id="enviar" class="cambio" name="enviar">
-                <input type="button" value="Limpiar" id="limpiar" class="cambio">
+                <br>
+                <div class="seccionboton">
+                <button type="button" value="Enviar" id="enviar" class="btn_contact" name="enviar">ENVIAR</button>
+                <button type="button" value="Limpiar" id="limpiar" class="btn_contact">LIMPIAR</button>
+              </div>
             </div>
         </fieldset>
     </form>
+    <!-- quiero hacer un popup para hacer la nueva -->
+    <div class="caja__signup">
+      <h1 class="titulo_signup">Hola! unete al clan tronco</h1>
+      <p>Has tu propia cuenta clickeando aqui abajo, es gratis!</p>
+      <button class="SignUp">Únete</button>
+    </div>
+  </div>
     <script src="/troncoferencias/java_form.js"></script>
 </body>
 </html>
