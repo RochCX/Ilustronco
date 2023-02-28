@@ -1,0 +1,38 @@
+show img:hover{
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(100%);
+    width: 70%;
+    object-fit: contain;
+}
+#Portada{
+    opacity: 0.5;
+    transition: 0.5s;
+    &:hover{
+            opacity: 1;
+            size: 200px 200px;
+    }
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .IMG:hover{
+    transform: scale(1.25);
+    filter: grayscale(0%);
+}
+.blach:hover{
+    transform: scale(1.07);
+}
+  
+// #Portada:hover{
+//     opacity: 1;
+//     size: 200px 200px;
+
+// }

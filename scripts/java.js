@@ -33,3 +33,8 @@ if(idmail.value.match(mailformat)){
   return false;
 }
 }
+jQuery( "#whatsapp-btn" ).mouseenter(function() {
+  jQuery('.box-option').fadeIn(100);
+}).mouseleave(function() {
+  jQuery('.box-option').fadeOut(100);
+});

@@ -39,47 +39,47 @@ show img:hover{
 body{
   background: #42455a;
 }
-section{
+.mainScroll{
   min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section:nth-child(1){
+.mainScroll:nth-child(1){
   color: #e0ffff;
   }
-section:nth-child(2){
+.mainScroll:nth-child(2){
   color: #ffffff;
   background: #000000;
 } 
-section:nth-child(3){
+.mainScroll:nth-child(3){
   color: #e0ffff;
 }
-section:nth-child(4){
+.mainScroll:nth-child(4){
   color: #42455a;
   background: #e0ffff;
 }
-section .container{
+.mainScroll .container{
   margin: 50px;
 }
-section h1{
+.mainScroll h1{
   font-size: 3rem;
   margin: 20px;
 }
-section h2{
+.mainScroll h2{
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
 }
-section .text-container{
+.mainScroll .text-container{
    display: flex;
 }
-section .text-container .text-box{
+.mainScroll .text-container .text-box{
   margin: 20px;
   padding: 20px;
   background: #00c2cb;
 }
-section .text-container .text-box h3{
+.mainScroll .text-container .text-box h3{
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -87,11 +87,11 @@ section .text-container .text-box h3{
 }
 
 @media (max-width: 900px){
-  section h1{
+  .mainScroll h1{
     font-size: 2rem;
     text-align: center;
   }
-  section .text-container{
+  .mainScroll .text-container{
     flex-direction: column;
   }
 }

@@ -1,0 +1,109 @@
+.mainScroll{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #343a40;
+    :nth-child(1){
+        color: #e0ffff;
+    }
+    :nth-child(2){
+        color: #42455a;
+    }
+    :nth-child(3){
+        color: #e0ffff;
+    }
+    :nth-child(4){
+        color: #e0ffff;
+        
+    }
+    .container{
+        margin: 50px;
+    }
+    h1{
+        font-size: 3rem;
+        margin: 20px;
+    }
+    h2{
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .text-container{
+        display: flex;
+        .text-box{
+            margin: 20px;
+            padding: 20px;
+            background: #00c2cb;
+            color: #e0ffff;
+            h3{
+                font-size: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                
+            }
+        }
+    }
+  }
+  @media (max-width: 900px){
+    .mainScroll{
+        h1{
+            font-size: 2rem;
+            text-align: center;
+        }
+        .text-container{
+            flex-direction: column;
+        }
+    }
+}
+//   .mainScroll:nth-child(1){
+//     color: #e0ffff;
+//     }
+//   .mainScroll:nth-child(2){
+//     color: #ffffff;
+//     background: #000000;
+//   } 
+//   .mainScroll:nth-child(3){
+//     color: #e0ffff;
+//   }
+//   .mainScroll:nth-child(4){
+//     color: #42455a;
+//     background: #e0ffff;
+//   }
+//   .mainScroll .container{
+//     margin: 50px;
+//   }
+//   .mainScroll h1{
+//     font-size: 3rem;
+//     margin: 20px;
+//   }
+//   .mainScroll h2{
+//     font-size: 40px;
+//     text-align: center;
+//     text-transform: uppercase;
+//   }
+//   .mainScroll .text-container{
+//      display: flex;
+//   }
+//   .mainScroll .text-container .text-box{
+//     margin: 20px;
+//     padding: 20px;
+//     background: #00c2cb;
+//   }
+//   .mainScroll .text-container .text-box h3{
+//     font-size: 30px;
+//     text-align: center;
+//     text-transform: uppercase;
+//     margin-bottom: 10px;
+//   }
+  
+//   @media (max-width: 900px){
+//     .mainScroll h1{
+//       font-size: 2rem;
+//       text-align: center;
+//     }
+//     .mainScroll .text-container{
+//       flex-direction: column;
+//     }
+//   }

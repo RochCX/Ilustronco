@@ -1,0 +1,19 @@
+.serviceContainer{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    row-gap:0;
+}
+.imgservices{
+    height: 30vh;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+.IMG{
+    height: 30vh;
+    display: block;
+	width: 100%;
+	object-fit: cover;
+    filter: grayscale(80%);
+	transition: transform 400ms ease-out;
+}
